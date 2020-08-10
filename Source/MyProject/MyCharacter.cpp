@@ -95,4 +95,3 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	PlayerInputComponent->BindAxis("TurnLeftRight", this, &APawn::AddControllerYawInput);
 	PlayerInputComponent->BindAxis("TurnUpDown", this, &APawn::AddControllerPitchInput);
 }
-

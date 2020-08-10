@@ -22,12 +22,10 @@ class MYPROJECT_API IInteractInterface
 
 	// Add interface functions to this class. This is the class that will be inherited to implement this interface.
 public:
-	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Interaction")
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Interact")
 		void OnInteract(AActor* Caller);
-
-	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Interaction")
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Interact")
 		void StartFocus();
-
-	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Interaction")
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Interact")
 		void EndFocus();
 };
